@@ -946,6 +946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 584a8ef4749c89745b7ae07f3ba7617f, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 584a8ef4749c89745b7ae07f3ba7617f, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1158,19 +1162,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
       propertyPath: m_Size.y
-      value: 0.861969
+      value: 1.0026654
+      objectReference: {fileID: 0}
+    - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
+      propertyPath: m_Size.z
+      value: 0.41580752
       objectReference: {fileID: 0}
     - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
       propertyPath: m_Center.x
-      value: 0.18029118
+      value: 0.18029547
       objectReference: {fileID: 0}
     - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
       propertyPath: m_Center.y
-      value: 0.35961652
+      value: 0.27013952
       objectReference: {fileID: 0}
     - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
       propertyPath: m_Center.z
-      value: -0.010385513
+      value: 0.006357342
       objectReference: {fileID: 0}
     - target: {fileID: 8198136725428087258, guid: 7373ca75be0b06d46894f23ea56e9420, type: 3}
       propertyPath: m_IsTrigger
@@ -1485,6 +1493,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1708250252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 584a8ef4749c89745b7ae07f3ba7617f, type: 3}
+  m_PrefabInstance: {fileID: 1334909080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1708250253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708250252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b122c5c41fa1b9e44a1c3d85a7d1ac82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLevelToLoad: level1
 --- !u!1001 &1778040021
 PrefabInstance:
   m_ObjectHideFlags: 0
