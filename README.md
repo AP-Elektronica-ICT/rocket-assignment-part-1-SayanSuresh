@@ -1,2 +1,2 @@
-RocketAssignment
-For playing diffrent levels, you need to put both levels in build setting.
+RocketAssignment.
+For playing diffrent levels, you need to add both levels in build setting.
