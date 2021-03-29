@@ -23,7 +23,7 @@ public class RocketController : MonoBehaviour
         //Vector3 movement = new Vector3(horizontal, 0, vertical);
         //rigidbody.MovePosition(transform.position + movement);
 
-        transform.Rotate(new Vector3(-horizontal * SpeedDirection, 0, 0));
+        transform.Rotate(new Vector3(horizontal * SpeedDirection, 0, 0));
 
         if (Input.GetButtonDown("Jump"))
             rigidbody.AddRelativeForce(new Vector3(0, Power, 0));
